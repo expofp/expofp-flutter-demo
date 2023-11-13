@@ -17,22 +17,6 @@ InAppWebView(
     onConsoleMessage: (InAppWebViewController controller,
         ConsoleMessage consoleMessage) {},
     onWebViewCreated: (InAppWebViewController controller) {
-        controller.addJavaScriptHandler(
-            handlerName: 'onBoothClick',
-            callback: (args) {
-                //Some code
-            });
-
-        controller.addJavaScriptHandler(
-            handlerName: 'onFpConfigured', callback: (args) {
-                //Some code
-            });
-
-        controller.addJavaScriptHandler(
-            handlerName: 'onDirection',
-            callback: (args) {
-                //Some code
-            });
     },
 )
 ```
