@@ -4,7 +4,7 @@ This is an example of how you can integrate ExpoFP maps into an android(Flutter)
 
 ```js
 InAppWebView(
-    initialUrlRequest: URLRequest(url: Uri.parse('https://developer.expofp.com/examples/autumnfair.html')),
+    initialUrlRequest: URLRequest(url: Uri.parse('https://demo.expofp.com')),
     initialOptions: InAppWebViewGroupOptions(
         android: AndroidInAppWebViewOptions(
             allowFileAccess: true,
